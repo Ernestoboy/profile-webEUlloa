@@ -1,0 +1,153 @@
+/* todo esta en orden deacuerdo al codigo en Galeria.js */
+/* desde la linea 88 podes encontrar los cambios por (min-width: 280px) and (max-width: 1024px) */
+
+.Contenedor-imagenes {
+  position: relative;
+  width: 97.8%;
+  height: 108vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 20vh solid white;  
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img7,
+.img8,
+.img9 {
+  position: relative;
+  width: 37%;
+  height: 35vh;
+  background: url("../gallery/one.png");
+  background-size: cover;
+  border: 0.2vw solid white;
+  cursor: pointer;
+}
+
+.img2 {
+  background: url("../gallery/dillo.png");
+  background-size: cover;
+}
+
+.img3 {
+  width: 20%;
+  background: url("../gallery/dom.png");
+  background-size: cover;
+}
+
+.img4 {
+  background: url("../gallery/rece.png");
+  background-size: cover;
+}
+
+.img5 {
+  background: url("../gallery/admi.png");
+  background-size: cover;
+}
+
+.img6 {
+  position: relative;
+  width: 20%;
+  height: 35vh;
+  border: 0.2vw solid white;
+  overflow: hidden;
+}
+
+.img6:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: -100%;
+  background: url("../gallery/dom.png");
+  background-size: cover;
+}
+
+.img7 {
+  background: url("../gallery/sty1.png");
+  background-size: cover;
+}
+
+.img8 {
+  background: url("../gallery/sty3.png");
+  background-size: cover;
+}
+
+.img9 {
+  width: 20%;
+  background: url("../gallery/visa1.png");
+  background-size: cover;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+  .Contenedor-imagenes {
+    height: 137vh;
+    background: darkgrey;
+    border-bottom: 1vh solid white;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9 {
+    position: relative;
+    width: 72%;
+    height: 27vh;
+    background: url("../gallery/dillo.png");
+    background-size: cover;
+    border: 0.2vw solid white;
+    cursor: pointer;
+  }
+
+  .img3 {
+    width: 98%;
+    background: url("../gallery/admi.png");
+    background-size: cover;
+  }
+
+  .img2,
+  .img4 {
+    width: 26%;
+    background: url("../gallery/dom.png");
+    background-size: cover;
+  }
+
+  .img4 {
+    width: 98%;
+    background: url("../gallery/rece.png");
+    background-size: cover;
+  }
+
+  .img5 {
+    width: 98%;
+    background: url("../gallery/sty1.png");
+    background-size: cover;
+  }
+
+  .img6 {
+    width: 98%;
+    background: url("../gallery/visa1.png");
+    background-size: cover;
+  }
+
+  .img6:before {
+    display: none;
+  }
+
+  .img7,
+  .img8,
+  .img9 {
+    display: none;
+  }
+}

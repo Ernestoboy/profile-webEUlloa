@@ -1,0 +1,129 @@
+/* todo esta en orden deacuerdo al codigo en Footer.js */
+/* desde la linea 77 podes encontrar los cambios por (max-width: 480px) */
+/* desde la linea 120 podes encontrar los cambios por (min-width: 768px) and (max-width: 1024px) */
+
+.contenedor-footer {
+  position: relative;
+  width: 97.8%;
+  height: 45vh;
+  background: linear-gradient(120deg, rgb(45, 45, 45), rgb(40, 40, 40));
+  border-top: 8vh solid rgb(35, 35, 35);
+  border-bottom: 2vh solid rgb(29, 146, 226, 1);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.contenedor-footer p {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  margin: 0vw 0vw 0vw 0vw;
+  padding: 2vh 0vw 2vh 0vw;
+}
+
+.contenedor-footer p i {
+  position: relative;
+  left: 2vw;
+  font-size: 3vh;
+}
+
+.conteIzquierdo,
+.conteDerecho {
+  position: relative;
+  width: 20%;
+  height: max-content;
+  font-family: Segoe UI Symbol;
+}
+
+.contenedor-footer .conteIzquierdo .TituloFooter,
+.contenedor-footer .conteDerecho .TituloFooter {
+  color: rgb(29, 146, 226, 9);
+  font-size: 1.7vw;
+  text-decoration: underline;
+  width: 100%;
+  background: rgb(35, 35, 35);
+}
+
+.contenedor-caracteristicas,
+.contenedor-github {
+  position: relative;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 6px 6px 1px 2px rgb(35, 35, 35) inset;
+}
+
+.contenedor-caracteristicas,
+.contenedor-github i {
+  color: grey;
+  font-size: 8vw;
+}
+
+.contenedor-github i {
+  color: rgb(29, 146, 226, 9);
+}
+
+.contenedor-footer .correo {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .contenedor-footer {
+    position: relative;
+    background: linear-gradient(120deg, rgb(45, 45, 45), black);
+    border-top: 0vh solid rgb(35, 35, 35);
+    border-bottom-right-radius: 20vw;
+  }
+
+  .contenedor-footer p {
+    font-size: 2.2vh;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1.7vh 0vw 1.7vh 0vw;
+    border-right: 2px solid gold;
+  }
+
+  .conteIzquierdo,
+  .conteDerecho {
+    width: 50%;
+  }
+
+  .contenedor-footer .conteIzquierdo .TituloFooter,
+  .contenedor-footer .conteDerecho .TituloFooter {
+    color: orange;
+    background: linear-gradient(120deg, rgb(45, 45, 45), black);
+    font-size: 2.3vh;
+  }
+
+  .contenedor-caracteristicas {
+    display: none;
+  }
+
+  .contenedor-github {
+    display: none;
+  }
+
+  .contenedor-footer .correo {
+    width: 100%;
+    background: linear-gradient(120deg, rgb(45, 45, 45), black);
+    padding: 0vw 0vw 0vw 0vw;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenedor-footer {
+    height: max-content;
+    border-top: 3vh solid rgb(35, 35, 35);
+  }
+
+  .contenedor-footer p {
+    font-size: 1.2vh;
+  }
+}
