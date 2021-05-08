@@ -1,27 +1,3 @@
-
-
-
-
-$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\bryan\Desktop\app-ernesto\profile-web2201gz-firebase-adminsdk-vt1hr-b54cc883b4.json"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
