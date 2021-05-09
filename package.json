@@ -2,7 +2,7 @@
   "name": "app-ernesto",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://Ernestoboy.github.io/profile-webEUlloa",
+  "homepage":"http://Ernestoboy.github.io/webEUlloa",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
