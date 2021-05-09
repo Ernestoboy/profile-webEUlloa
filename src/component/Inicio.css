@@ -1,6 +1,6 @@
 /* todo esta en orden deacuerdo al codigo en Inicio.js */
-/* desde la linea 236 podes encontrar los cambios por (min-width: 280px) and (max-width: 1024px) */
-/* desde la linea 301 podes encontrar los cambios por(min-width: 768px) and (max-width: 1024px) (minimos cambios */
+/* desde la linea 256 podes encontrar los cambios por (min-width: 280px) and (max-width: 1024px) */
+/* desde la linea 331 podes encontrar los cambios por(min-width: 768px) and (max-width: 1024px) (minimos cambios */
 
 .contenedor-inicio {
   position: relative;
@@ -48,6 +48,22 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* .contenedorDE-contenido-izquierdo-desplegable:before es una pequeña decoracion  */
+.contenedorDE-contenido-izquierdo-desplegable:before {
+  content:"";
+  position:absolute;
+  top:6%;
+  left:3%;
+  width:1.9vw;
+  height:9.5vh;
+  background:linear-gradient(120deg,rgb(29, 146, 226, 1),aqua);
+  transform: rotate(17deg);
+  z-index: 1000;
+  border-radius: 20vw;
+  box-shadow: 2px 2px 0px 0.15vw  gold;  
+  
 }
 
 .contenedor-iconos-Internet-MetodoDeTrabajo button {
@@ -115,6 +131,10 @@
   border-bottom: 0.3vw solid gold;
   border-bottom-right-radius: 22vw;
 
+}
+
+.contenido-derecho { 
+  border-bottom-right-radius:0vw;
 }
 
 .contenido-izquierdo p {
@@ -241,6 +261,16 @@
   .contenedorDE-contenido-izquierdo-desplegable {
     width: 75%;
   }
+
+  
+.contenedorDE-contenido-izquierdo-desplegable:before {
+  content:"";
+  position:absolute;
+  top:8%;
+  left:2%;
+  height:2.5vh;
+  box-shadow: 2px 2px 0px 0.1vw gold;  
+}
 
   .contenedor-iconos-Internet-MetodoDeTrabajo {
     right: -7%;
