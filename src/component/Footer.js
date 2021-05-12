@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="contenedor-footer">
         <div className="conteIzquierdo">
-          <p className="TituloFooter">Categorias </p>
+          <p className="TituloFooter">Categorias</p>
           <p>
             -Blog <i class="fas fa-user"></i>
           </p>
@@ -44,10 +44,7 @@ class Footer extends Component {
           <p>Correo: nellastesiggmail.com</p>
         </div>
 
-        {
-          /*Este correo tiene su display none para laptop*/
-          <p className="correo"> Correo: nellastesiggmail.com</p>
-        }
+       
       </div>
     );
   }

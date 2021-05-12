@@ -70,60 +70,77 @@
   color: rgb(29, 146, 226, 9);
 }
 
-.contenedor-footer .correo {
-  display: none;
-}
-
 @media screen and (max-width: 480px) {
   .contenedor-footer {
     position: relative;
-    background: linear-gradient(120deg, rgb(45, 45, 45), black);
+    height: max-content;
     border-top: 0vh solid rgb(35, 35, 35);
-    border-bottom-right-radius: 20vw;
+    border-bottom: 1vh solid rgb(55, 55, 55);
+    border-bottom-right-radius: 0%;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenedor-footer p {
-    font-size: 2.2vh;
+    position: relative;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7vh;
     margin: 0vw 0vw 0vw 0vw;
-    padding: 1.7vh 0vw 1.7vh 0vw;
-    border-right: 2px solid gold;
+    padding: 2vh 2vw 2vh 2vw;
+    border-right: 0px solid gold;
+    color: white;
+  }
+
+  .contenedor-footer i {
+    color: white;
   }
 
   .conteIzquierdo,
   .conteDerecho {
+    width: max-content;
+    font-size: 1.2vh;
+    border-right: 0px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 146, 226, 0.9);
+  }
+
+  .conteDerecho {
+    position: relative;
+    width: 100%;
+  }
+
+  .conteIzquierdo p {
+    width: max-content;
+  }
+
+  .conteDerecho p {
+    position: relative;
     width: 50%;
+    border-bottom: 0.4vh solid rgb(28, 135, 219, 0.9);
+    background: rgb(50, 50, 50);
+  }
+
+  .conteIzquierdo p i,
+  .conteDerecho p i {
+    font-size: 2.5vh;
+    left: 1vw;
+  }
+
+  .contenedor-footer .contenedor-github,
+  .contenedor-footer .contenedor-caracteristicas {
+    width: 50%;
+    height: 25vh;
+    box-shadow: 1px 1px 1px 1px rgb(55, 55, 55) inset;
+    background: rgb(29, 146, 226, 0.9);
   }
 
   .contenedor-footer .conteIzquierdo .TituloFooter,
   .contenedor-footer .conteDerecho .TituloFooter {
-    color: orange;
-    background: linear-gradient(120deg, rgb(45, 45, 45), black);
-    font-size: 2.3vh;
-  }
-
-  .contenedor-caracteristicas {
     display: none;
-  }
-
-  .contenedor-github {
-    display: none;
-  }
-
-  .contenedor-footer .correo {
-    width: 100%;
-    background: linear-gradient(120deg, rgb(45, 45, 45), black);
-    padding: 0vw 0vw 0vw 0vw;
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .contenedor-footer {
-    height: max-content;
-    border-top: 3vh solid rgb(35, 35, 35);
-  }
-
-  .contenedor-footer p {
-    font-size: 1.2vh;
   }
 }
