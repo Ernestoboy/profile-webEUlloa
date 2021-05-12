@@ -2,205 +2,205 @@
 /* desde la linea 202 podes encontrar los cambios por (min-width: 280px) and (max-width: 1024px) */
   /*Este componente solo es visto desde dimenciones como laptop */
 
-.contenedorDE-contenidosDinamicos {
-  position: relative;
-  width: 100%;
-  height: 400vh;
-  display: flex;
-}
-
-.contenedorDE-contenidosDinamicos:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 30vh;
-  background: white;
-  z-index: 1000;
-  bottom: 0%;
-}
-.contenidoDinamicoIzquierdo,
-.contenidoDinamicoDerecho {
-  position: relative;
-  width: 50%;
-  height: 100%;
-  background: #f1f1f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contenidoDinamicoDerecho {
-  flex-wrap: wrap;
-  background: white;
-  box-shadow: 1px 1px 6px 2px rgb(0, 0, 0, 0.2);
-}
-
-.contenidoIzquierdoCentrado {
-  position: relative;
-  width: 80%;
-  height: 100%;
-}
-
-.imgDeFondoHamburgueza {
-  position: sticky;
-  top: 20vh;
-  width: 100%;
-  height: 60vh;
-  background: url("../gallery/ham3.png");
-  background-size: cover;
-}
-
-.imgDeFondoHamburgueza:before,
-.imgDeFondoFormulario:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgb(255, 255, 255, 0.6);
-  background-size: cover;
-}
-
-.imgDeFondoFormulario:before {
-  content: "";
-  position: absolute;
-  width: 65%;
-}
-
-.img-hamburgueza1,
-.img-hamburgueza2,
-.img-hamburgueza3,
-.img-hamburgueza4 {
-  position: sticky;
-  top: 30vh;
-  width: 6vw;
-  height: 35vh;
-  background: rgb(0, 0, 0, 0.2);
-  background-size: cover;
-  border-radius: 20vw;
-  overflow: hidden;
-}
-
-.img-hamburgueza1 {
-  left: 14vw;
-}
-.img-hamburgueza2 {
-  left: 20.2vw;
-  margin-top: 15vh;
-}
-.img-hamburgueza3 {
-  left: 26.4vw;
-  margin-top: 15vh;
-}
-.img-hamburgueza4 {
-  left: 32.6vw;
-  margin-top: 15vh;
-}
-
-.img-hamburgueza1,
-.img-hamburgueza4 {
-  height: 27vh;
-  top: 34vh;
-}
-
-.img-hamburgueza1:before,
-.img-hamburgueza2:before,
-.img-hamburgueza3:before,
-.img-hamburgueza4:before {
-  content: "";
-  position: absolute;
-  width: 400%;
-  height: 100%;
-  background: url("../gallery/ham3.png");
-  background-size: cover;
-}
-
-.img-hamburgueza2:before {
-  left: -100%;
-}
-.img-hamburgueza3:before {
-  left: -200%;
-}
-.img-hamburgueza4:before {
-  left: -300%;
-}
-
-.img-hamburgueza1:before,
-.img-hamburgueza4:before {
-  height: 35vh;
-  top: -4vh;
-}
-
-.dos {
-  position: relative;
-  width: 100%;
-  height: 10vh;
-  background: black;
-}
-
-.imgDeFondoFormulario {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background: url("../gallery/formu.png");
-  background-size: cover;
-  bottom: 30vh;
-}
-
-.imgDeFondoFormulario p {
-  position: relative;
-  top: 62.5vh;
-  width: 55%;
-  background: rgb(255, 255, 255, 0.8);
-  color: rgb(45, 45, 45);
-  font-size: 1.5vw;
-  font-family: Segoe UI Symbol;
-  padding: 4vh;
-  font-weight: 1000;
-  margin: 0vh 0vh 0vh 0vh;
-  bottom: 0%;
-  border-bottom: 0.2vh solid crimson;
-  display: flex;
-  align-items: center;
-}
-
-.imgDeFondoFormulario p i {
-  font-size: 2.1vw;
-  color: rgb(201, 16, 74);
-  padding-right: 1vw;
-}
-
-.contenidoDinamicoDerecho p {
-  position: sticky;
-  width: 85%;
-  font-size: 1.6vw;
-  color: rgb(45, 45, 45);
-  top: 39vh;
-  font-family: Segoe UI Symbol;
-}
-.contenidoDinamicoDerecho .titulo {
-  position: sticky;
-  top: 30vh;
-  color: rgb(255, 199, 1);
-  text-decoration: underline;
-  font-size: 2.4vw;
-  margin: 0vh 0vh 0vh 0vh;
-  font-family: Segoe UI Symbol;
-}
-
-.contenidoDinamicoDerecho i {
-  position: sticky;
-  top: 65vh;
-  padding: 2.5vw;
-  border-radius: 20vw;
-  font-size: 3vw;
-  color: #f1f1f2;
-  background: white;
-  margin-right: 0.7vw;
-  border-bottom: 0.2vw solid #f1f1f2;
-}
-
-@media only screen and (min-width: 280px) and (max-width: 1024px) {
   .contenedorDE-contenidosDinamicos {
-    display: none;
+    position: relative;
+    width: 100%;
+    height: 400vh;
+    display: flex;
   }
-}
+  
+  .contenedorDE-contenidosDinamicos:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    background: white;
+    z-index: 1000;
+    bottom: 0%;
+  }
+  .contenidoDinamicoIzquierdo,
+  .contenidoDinamicoDerecho {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #f1f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenidoDinamicoDerecho {
+    flex-wrap: wrap;
+    background: white;
+    box-shadow: 1px 1px 6px 2px rgb(0, 0, 0, 0.2);
+  }
+  
+  .contenidoIzquierdoCentrado {
+    position: relative;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .imgDeFondoHamburgueza {
+    position: sticky;
+    top: 20vh;
+    width: 100%;
+    height: 60vh;
+    background: url("../gallery/ham3.png");
+    background-size: cover;
+  }
+  
+  .imgDeFondoHamburgueza:before,
+  .imgDeFondoFormulario:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255, 0.6);
+    background-size: cover;
+  }
+  
+  .imgDeFondoFormulario:before {
+    content: "";
+    position: absolute;
+    width: 65%;
+  }
+  
+  .img-hamburgueza1,
+  .img-hamburgueza2,
+  .img-hamburgueza3,
+  .img-hamburgueza4 {
+    position: sticky;
+    top: 30vh;
+    width: 6vw;
+    height: 35vh;
+    background: rgb(0, 0, 0, 0.2);
+    background-size: cover;
+    border-radius: 20vw;
+    overflow: hidden;
+  }
+  
+  .img-hamburgueza1 {
+    left: 14vw;
+  }
+  .img-hamburgueza2 {
+    left: 20.2vw;
+    margin-top: 15vh;
+  }
+  .img-hamburgueza3 {
+    left: 26.4vw;
+    margin-top: 15vh;
+  }
+  .img-hamburgueza4 {
+    left: 32.6vw;
+    margin-top: 15vh;
+  }
+  
+  .img-hamburgueza1,
+  .img-hamburgueza4 {
+    height: 27vh;
+    top: 34vh;
+  }
+  
+  .img-hamburgueza1:before,
+  .img-hamburgueza2:before,
+  .img-hamburgueza3:before,
+  .img-hamburgueza4:before {
+    content: "";
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    background: url("../gallery/ham3.png");
+    background-size: cover;
+  }
+  
+  .img-hamburgueza2:before {
+    left: -100%;
+  }
+  .img-hamburgueza3:before {
+    left: -200%;
+  }
+  .img-hamburgueza4:before {
+    left: -300%;
+  }
+  
+  .img-hamburgueza1:before,
+  .img-hamburgueza4:before {
+    height: 35vh;
+    top: -4vh;
+  }
+  
+  .dos {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background: black;
+  }
+  
+  .imgDeFondoFormulario {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("../gallery/formu.png");
+    background-size: cover;
+    bottom: 30vh;
+  }
+  
+  .imgDeFondoFormulario p {
+    position: relative;
+    top: 62.5vh;
+    width: 55%;
+    background: rgb(255, 255, 255, 0.8);
+    color: rgb(45, 45, 45);
+    font-size: 1.5vw;
+    font-family: Segoe UI Symbol;
+    padding: 4vh;
+    font-weight: 1000;
+    margin: 0vh 0vh 0vh 0vh;
+    bottom: 0%;
+    border-bottom: 0.2vh solid crimson;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgDeFondoFormulario p i {
+    font-size: 2.1vw;
+    color: rgb(201, 16, 74);
+    padding-right: 1vw;
+  }
+  
+  .contenidoDinamicoDerecho p {
+    position: sticky;
+    width: 85%;
+    font-size: 1.6vw;
+    color: rgb(45, 45, 45);
+    top: 39vh;
+    font-family: Segoe UI Symbol;
+  }
+  .contenidoDinamicoDerecho .titulo {
+    position: sticky;
+    top: 30vh;
+    color: rgb(255, 199, 1);
+    text-decoration: underline;
+    font-size: 2.4vw;
+    margin: 0vh 0vh 0vh 0vh;
+    font-family: Segoe UI Symbol;
+  }
+  
+  .contenidoDinamicoDerecho i {
+    position: sticky;
+    top: 65vh;
+    padding: 2.5vw;
+    border-radius: 20vw;
+    font-size: 3vw;
+    color: #f1f1f2;
+    background: white;
+    margin-right: 0.7vw;
+    border-bottom: 0.2vw solid #f1f1f2;
+  }
+  
+  @media only screen and (min-width: 280px) and (max-width: 1024px) {
+    .contenedorDE-contenidosDinamicos {
+      display: none;
+    }
+  }
