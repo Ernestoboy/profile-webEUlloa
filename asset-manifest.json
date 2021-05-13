@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/profile-webEUlloa/static/css/main.9d5cb9ea.chunk.css",
-    "main.js": "/profile-webEUlloa/static/js/main.954de76f.chunk.js",
-    "main.js.map": "/profile-webEUlloa/static/js/main.954de76f.chunk.js.map",
+    "main.css": "/profile-webEUlloa/static/css/main.72ed8cfb.chunk.css",
+    "main.js": "/profile-webEUlloa/static/js/main.b55a8121.chunk.js",
+    "main.js.map": "/profile-webEUlloa/static/js/main.b55a8121.chunk.js.map",
     "runtime-main.js": "/profile-webEUlloa/static/js/runtime-main.0cf1cb2c.js",
     "runtime-main.js.map": "/profile-webEUlloa/static/js/runtime-main.0cf1cb2c.js.map",
     "static/js/2.6c531569.chunk.js": "/profile-webEUlloa/static/js/2.6c531569.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3e2bec0a.chunk.js": "/profile-webEUlloa/static/js/3.3e2bec0a.chunk.js",
     "static/js/3.3e2bec0a.chunk.js.map": "/profile-webEUlloa/static/js/3.3e2bec0a.chunk.js.map",
     "index.html": "/profile-webEUlloa/index.html",
-    "static/css/main.9d5cb9ea.chunk.css.map": "/profile-webEUlloa/static/css/main.9d5cb9ea.chunk.css.map",
+    "static/css/main.72ed8cfb.chunk.css.map": "/profile-webEUlloa/static/css/main.72ed8cfb.chunk.css.map",
     "static/js/2.6c531569.chunk.js.LICENSE.txt": "/profile-webEUlloa/static/js/2.6c531569.chunk.js.LICENSE.txt",
     "static/media/Galeria.css": "/profile-webEUlloa/static/media/sty3.842849c3.png",
     "static/media/Inicio.css": "/profile-webEUlloa/static/media/bur.29cc8c84.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.0cf1cb2c.js",
     "static/js/2.6c531569.chunk.js",
-    "static/css/main.9d5cb9ea.chunk.css",
-    "static/js/main.954de76f.chunk.js"
+    "static/css/main.72ed8cfb.chunk.css",
+    "static/js/main.b55a8121.chunk.js"
   ]
 }
