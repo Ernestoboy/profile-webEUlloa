@@ -74,9 +74,9 @@ function App() {
       <PestañasWebs />
       <Responsive />
       <ContenidoDinamico />
-      <PerfilMovil />
       <Galeria galeria={enlacegaleria} />
       <Contactar contactar={enlacecontactar} />
+      <PerfilMovil />
       <Footer />
     </div>
   );

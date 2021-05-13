@@ -1,6 +1,6 @@
 /* todo esta en orden deacuerdo al codigo en Footer.js */
-/* desde la linea 77 podes encontrar los cambios por (max-width: 480px) */
-/* desde la linea 120 podes encontrar los cambios por (min-width: 768px) and (max-width: 1024px) */
+/* desde la linea 73 podes encontrar los cambios por (max-width: 480px) */
+/* desde la linea 150 podes encontrar los cambios por (min-width: 768px) and (max-width: 1024px) */
 
 .contenedor-footer {
   position: relative;
@@ -142,5 +142,18 @@
   .contenedor-footer .conteIzquierdo .TituloFooter,
   .contenedor-footer .conteDerecho .TituloFooter {
     display: none;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenedor-footer {
+    height: max-content;
+    border-top: 3vh solid rgb(35, 35, 35);
+  }
+
+  .contenedor-footer p {
+    font-size: 1.2vh;
   }
 }
