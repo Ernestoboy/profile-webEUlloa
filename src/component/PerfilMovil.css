@@ -1,44 +1,53 @@
 /* todo esta en orden deacuerdo al codigo en PerfilMovil.js */
-/* desde la linea 39 podes encontrar los cambios por (max-width: 480px) */
 /*Este componente solo es visto desde movil */
 
 .contenedor-perfil {
-  width: 97.8%;
-  height: 45vh;
-  background: rgb(45, 45, 45);
   display: none;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.3);
-}
-
-.img-web-developer {
-  position: relative;
-  width: 37vw;
-  height: 37vw;
-  background: rgb(38, 38, 38);
-  border: 0.5vw solid grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 10px 15px 10px 2px rgb(0, 0, 0, 0.3);
-  border-radius: 50%;
-}
-
-.img-web-developer:before {
-  content: "";
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  background: url("../gallery/edgar2.png");
-  background-size: cover;
-  border-radius: 50%;
 }
 
 @media screen and (max-width: 480px) {
   .contenedor-perfil {
+    width: 97.8%;
+    height: 47vh;
+    background: url("../gallery/compu.png");
+    background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0, 0.3);
+  }
+
+  .contenedor-perfil:before {
+    content: "";
+    position: absolute;
+    width: 97.8%;
+    height: 47vh;
+    background:rgb(45, 45, 45, 0.8);
+    background-size: cover;
+  }
+
+  .img-web-developer {
+    position: relative;
+    width: 37vw;
+    height: 37vw;
+    background: rgb(40, 40, 40, 0.1);
+    border: 0.5vw solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 10px 2px rgb(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+
+  .img-web-developer:before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: url("../gallery/edgar2.png");
+    background-size: cover;
+    border-radius: 50%;
   }
 
   .contenedor-perfil p {
@@ -47,6 +56,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    z-index: 9000;
   }
 
   .conte-instagram-linkedin {
@@ -65,7 +75,7 @@
     border-radius: 50%;
     background: linear-gradient(120deg, crimson, purple);
     padding: 2.5vw;
-    margin: 0vw 2.2vw 0vw 2.2vw;
+    margin: 0vw 3.2vw 0vw 3.2vw;
     box-shadow: 7px 10px 7px 2px rgb(0, 0, 0, 0.3);
     animation: redes 8s infinite;
   }

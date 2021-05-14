@@ -6,9 +6,9 @@ import Inicio from "./component/Inicio";
 import PestañasWebs from "./component/PestañasWebs";
 import Responsive from "./component/Responsive";
 import ContenidoDinamico from "./component/ContenidoDinamico";
-import PerfilMovil from "./component/PerfilMovil";
 import Galeria from "./component/Galeria";
 import Contactar from "./component/Contactar";
+import PerfilMovil from "./component/PerfilMovil";
 import Footer from "./component/Footer";
 
 

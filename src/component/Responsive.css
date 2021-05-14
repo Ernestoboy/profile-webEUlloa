@@ -76,22 +76,23 @@
 @media only screen and (min-width: 280px) and (max-width: 1024px) {
   .Texto p {
     width: 85%;
-    font-size: 2vh;
+    font-size: 2.1vh;
     color: rgb(45, 45, 45);
   }
 
   .Texto .titulo {
     color: rgb(255, 199, 1);
     text-decoration: underline;
-    font-size: 2.2vh;
+    font-size: 2.7vh;
     margin: 0vh 0vh 0vh 0vh;
+    
   }
 
   .Texto i {
     position: relative;
     width: 17%;
-    padding: 2vh 0vh 0vh 0vh;
-    font-size: 3vh;
-    color: rgb(45, 45, 45);
+    font-size: 3.5vh;
+    color:rgb(45,45,45);
+    
   }
 }
