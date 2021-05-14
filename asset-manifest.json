@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/profile-webEUlloa/static/css/main.fd790525.chunk.css",
-    "main.js": "/profile-webEUlloa/static/js/main.b55a8121.chunk.js",
-    "main.js.map": "/profile-webEUlloa/static/js/main.b55a8121.chunk.js.map",
+    "main.css": "/profile-webEUlloa/static/css/main.6e74aa63.chunk.css",
+    "main.js": "/profile-webEUlloa/static/js/main.f84ed1ad.chunk.js",
+    "main.js.map": "/profile-webEUlloa/static/js/main.f84ed1ad.chunk.js.map",
     "runtime-main.js": "/profile-webEUlloa/static/js/runtime-main.0cf1cb2c.js",
     "runtime-main.js.map": "/profile-webEUlloa/static/js/runtime-main.0cf1cb2c.js.map",
-    "static/js/2.6c531569.chunk.js": "/profile-webEUlloa/static/js/2.6c531569.chunk.js",
-    "static/js/2.6c531569.chunk.js.map": "/profile-webEUlloa/static/js/2.6c531569.chunk.js.map",
+    "static/js/2.e1bb6798.chunk.js": "/profile-webEUlloa/static/js/2.e1bb6798.chunk.js",
+    "static/js/2.e1bb6798.chunk.js.map": "/profile-webEUlloa/static/js/2.e1bb6798.chunk.js.map",
     "static/js/3.3e2bec0a.chunk.js": "/profile-webEUlloa/static/js/3.3e2bec0a.chunk.js",
     "static/js/3.3e2bec0a.chunk.js.map": "/profile-webEUlloa/static/js/3.3e2bec0a.chunk.js.map",
     "index.html": "/profile-webEUlloa/index.html",
-    "static/css/main.fd790525.chunk.css.map": "/profile-webEUlloa/static/css/main.fd790525.chunk.css.map",
-    "static/js/2.6c531569.chunk.js.LICENSE.txt": "/profile-webEUlloa/static/js/2.6c531569.chunk.js.LICENSE.txt",
+    "static/css/main.6e74aa63.chunk.css.map": "/profile-webEUlloa/static/css/main.6e74aa63.chunk.css.map",
+    "static/js/2.e1bb6798.chunk.js.LICENSE.txt": "/profile-webEUlloa/static/js/2.e1bb6798.chunk.js.LICENSE.txt",
     "static/media/Galeria.css": "/profile-webEUlloa/static/media/sty3.842849c3.png",
-    "static/media/Inicio.css": "/profile-webEUlloa/static/media/bur.29cc8c84.png",
+    "static/media/Inicio.css": "/profile-webEUlloa/static/media/bur.e5b52b2c.png",
     "static/media/PerfilMovil.css": "/profile-webEUlloa/static/media/edgar2.9b306cf6.png",
     "static/media/all.min.css": "/profile-webEUlloa/static/media/fa-solid-900.46fdbd2d.woff",
-    "static/media/ContenidoDinamico.css": "/profile-webEUlloa/static/media/ham3.f25465a2.png",
+    "static/media/ContenidoDinamico.css": "/profile-webEUlloa/static/media/ham3.ec24392f.png",
     "static/media/Responsive.css": "/profile-webEUlloa/static/media/marte2.5aaa8953.png",
     "static/media/Contactar.css": "/profile-webEUlloa/static/media/visa1.48d5b8eb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0cf1cb2c.js",
-    "static/js/2.6c531569.chunk.js",
-    "static/css/main.fd790525.chunk.css",
-    "static/js/main.b55a8121.chunk.js"
+    "static/js/2.e1bb6798.chunk.js",
+    "static/css/main.6e74aa63.chunk.css",
+    "static/js/main.f84ed1ad.chunk.js"
   ]
 }
