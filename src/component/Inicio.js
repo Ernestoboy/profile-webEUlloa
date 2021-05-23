@@ -22,7 +22,7 @@ function Inicio() {
     alignItems: "center",
     flexWrap: "wrap",
     background:
-      "linear-gradient(120deg,rgb(62, 80, 193, 1),rgb(29, 146, 226, 0.9))",
+      "linear-gradient(120deg,rgb(62, 80, 193, 0.95),rgb(29, 146, 226, 0.95))",
 
     borderBottom: "1vh solid aqua",
     zIndex: "900",
