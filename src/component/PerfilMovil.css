@@ -27,17 +27,30 @@
     background-size: cover;
   }
 
+  .contenedor-perfil::after {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 44vh;
+    background:rgb(255, 255, 255, 0.1);
+    background-size: cover;
+    border:2vw solid rgb(55,55,55,0.7);
+    border-radius: 2vh;
+  }
+
+
   .img-web-developer {
     position: relative;
     width: 37vw;
     height: 37vw;
-    background: rgb(40, 40, 40, 0.1);
+    background: rgb(250, 250, 250, 0.05);
     border: 0.5vw solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 10px 15px 10px 2px rgb(0, 0, 0, 0.3);
     border-radius: 50%;
+    z-index: 1000;
   }
 
   .img-web-developer:before {
@@ -65,6 +78,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
   }
 
   .conte-instagram-linkedin i {

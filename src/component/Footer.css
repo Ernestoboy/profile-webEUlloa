@@ -106,7 +106,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(29, 146, 226, 0.9);
+    background: rgb(29, 146, 226, 1);
+    border-radius: 1vh;
   }
 
   .conteDerecho {
@@ -121,7 +122,7 @@
   .conteDerecho p {
     position: relative;
     width: 50%;
-    border-bottom: 0.4vh solid rgb(28, 135, 219, 0.9);
+    border-bottom: 0.4vh solid rgb(28, 135, 219, 1);
     background: rgb(50, 50, 50);
   }
 
@@ -144,8 +145,6 @@
     display: none;
   }
 }
-
-
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .contenedor-footer {
