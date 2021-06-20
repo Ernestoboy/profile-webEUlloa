@@ -41,7 +41,7 @@ class Footer extends Component {
           <i class="fab fa-github-square">
             <p>Github</p>
           </i>
-          <p>Correo: nellastesiggmail.com</p>
+          <p>Correo: nellastesi@gmail.com</p>
         </div>
 
        
